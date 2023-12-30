@@ -5,6 +5,7 @@ import 'utils/colors.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // ignore: unused_local_variable
   SharedPreferences prefs = await SharedPreferences.getInstance();
   runApp(const MainApp());
 }
